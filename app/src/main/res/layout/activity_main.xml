@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/turnTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn X"
+        android:textColor="@color/black"
+        android:textSize="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1a"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="62dp"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2a"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="62dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3a"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="62dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1b"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="62dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2b"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="62dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3b"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="62dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button1c"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="62dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2c"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="62dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3c"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="62dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
